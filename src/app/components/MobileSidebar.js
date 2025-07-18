@@ -9,7 +9,7 @@ function MobileSidebar() {
       };
     return (
         <div
-  className={`py-[24px] bg-[#FFFFFF] h-[100%] mobile-sidebar hidden sidebar-container z-[21] flex flex-col justify-between duration-500 px-[16px]
+  className={`py-[24px] bg-[#FFFFFF] h-[100%] bg-[] mobile-sidebar hidden sidebar-container z-[21] flex flex-col justify-between duration-500 px-[16px]
     ${showSidebar ? "w-[300px]" : "w-[70px]"}
     absolute top-[0px] left-[0px]
     xl:static xl:top-auto xl:left-auto`}

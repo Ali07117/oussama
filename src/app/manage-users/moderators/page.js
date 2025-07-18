@@ -26,7 +26,7 @@ function page() {
     
       <Sidebar/>
       <MobileSidebar/>
-      <div className='rightbar overflow-y-auto h-[85vh]  pl-[80px] pt-[90px] flex-1 text-[black] bg-[]'>
+      <div className='rightbar overflow-hidden   pl-[80px] pt-[90px] flex-1 text-[black] bg-[]'>
         
         <h1 className='font-[mainfont] font-[700] manage-moderators-text text-[32px] text-[#191B23]'>Manage Moderators</h1>
         <p className='w-[560px] font-[mainfont] leading-[130%] manage-moderators-para text-[18px] text-[#404145]'>Add or remove moderators, update roles, and manage salaries. This section is restricted to administrative use only.</p>
